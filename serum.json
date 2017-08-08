@@ -1,0 +1,10 @@
+{
+  "site_name": "Andrea Azzini",
+  "site_description": "Welcome to my website!",
+  "preview_length": 498,
+  "date_format": "{WDfull}, {D} {Mshort} {YYYY}",
+  "base_url": "/",
+  "author_email": "and.azzini@gmail.com",
+  "author": "Andrea Azzini",
+  "list_title_all": "Journal"
+}

@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'GT Sectra Display';
+  src: url(/assets/fonts/GTSectraDisplay-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'GT Sectra Display';
+  font-weight: bold;
+  src: url(/assets/fonts/GTSectraDisplay-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'GT Sectra Display';
+  font-style: italic;
+  src: url(/assets/fonts/GTSectraDisplay-RegularItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'GT Sectra Display';
+  font-weight: bold;
+  font-style: italic;
+  src: url(/assets/fonts/GTSectraDisplay-BoldItalic.otf) format("opentype");
+}
+
+::selection {
+  background: rgba(255,255,255,0);
+}
+
+body {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h1, h2, p, a, td {
+  font-family: "GT Sectra Display";
+  color: black;
+}
+
+code {
+  display: inline-block;
+  border: 1px #ccc solid;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #eee;
+  font-family: "Monaco";
+  color: black;
+  font-size: 13px;
+}
+
+code.inline {
+  display: inline;
+  padding: 2px 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 3px 8px;
+}
+
+header {
+  height: 76px;
+}
+
+h1#title {
+  float: left;
+}
+
+h1#title a {
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  height: 100%;
+  padding-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  height: 100%;
+}
+
+nav ul li {
+  display: inline-flex;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+article {
+  clear: both;
+  text-align: justify;
+}
+
+article p, article li {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+footer {
+  display: inline-block;
+  float: right;
+  width: 100%;
+}
+
+#links {
+  float: left;
+  margin: 0;
+}
+
+#links ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+
+#links ul li {
+  padding-left: 0px;
+  padding-right: 8px;
+}
+
+li.separator {
+  color: #AAA;
+}
+
+div.lotus {
+  float: right;
+  padding-top: 20px;
+  background-image: url(/assets/images/lotus.jpg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 30px;
+  height: 30px;
+}
+
+#copyright {
+  float: right;
+  padding-left: 10px;
+}
+
+/* Thesis */
+
+ol {
+  margin: 0;
+}
+
+ol li p {
+  margin: 0;
+}
+
+ol li a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -32px;
+}
+
+ol ol > li p {
+  margin-top: -26px;
+}
+
+img {
+  width: 80%;
+  margin: 1% 10%;
+}
+
+/* Journal */
+
+.gist-meta a {
+  font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.blob-num {
+  border-width: 0
+}
+
+/* Resume */
+
+div#sidebar {
+  background-color: #fff;
+  background-image: none;
+}
+
+div#page-container {
+  position: relative;
+  background-color: #fff;
+  background-image: none;
+}
+
+div#pf1 {
+  margin: 0;
+  margin-top: -78px;
+  margin-bottom: 12px;
+  height: 1288.521008px;
+  box-shadow: 0 0 0 0 #fff;
+}
+
+#pf1 > div.pc.pc1.w0.h0.opened {
+  height: 1288.521008px;
+}

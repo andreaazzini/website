@@ -1,0 +1,2 @@
+<p>Posted on <%= date %> by <%= author %></p>
+<article><%= contents %></article>
