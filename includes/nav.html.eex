@@ -1,5 +1,5 @@
 <ul>
   <li><a href="<%= base "posts" %>">Journal</a></li>
-  <li><a href="<%= base "thesis" %>">Thesis</a></li>
-  <li><a href="<%= base "resume" %>">Résumé</a></li>
+  <!--li><a href="<%= base "thesis" %>">Thesis</a></li>
+  <li><a href="<%= base "resume" %>">Résumé</a></li-->
 </ul>

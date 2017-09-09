@@ -36,7 +36,7 @@
         _ -> "<h2>" <> page_title <> "</h2>" <> contents
       end %>
     </article>
-    <footer>
+    <!--footer>
       <nav id="links">
         <ul>
           <li><a href="https://twitter.com/andreaazzini/">Twitter</a></li>
@@ -48,6 +48,6 @@
       </nav>
       <p id="copyright">© 2017 Andrea Azzini</p>
       <div class="lotus"></div>
-    </footer>
+    </footer-->
   </body>
 </html>
